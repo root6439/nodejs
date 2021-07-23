@@ -11,3 +11,4 @@ const buf_string = Buffer.from('Carregando uma string', 'utf8')
 console.log(buf_string.toString());
 
 console.log(Buffer.isBuffer(buf_string));
+
