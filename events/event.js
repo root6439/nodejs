@@ -11,3 +11,9 @@ meuEvento.on('seguranca', (x, y) => {
 })
 
 meuEvento.emit('seguranca', 'userAdmin', 'Alterou salário');
+
+meuEvento.on('encerrar', (dados)=> {
+  console.log("assinante: ", dados);
+})
+
+meuEvento.emit('encerrar', 'encerrando execução')
